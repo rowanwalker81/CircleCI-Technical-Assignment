@@ -1,0 +1,47 @@
+Rowan's Technical Assignment!
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 20%;
+      background-color: #f4f4f9;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #message {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>CircleCi</h1>
+  <button onclick="showMessage()">SUBMIT</button>
+  <div id="message"></div>
+
+  <script>
+    function showMessage() {
+      const messageDiv = document.getElementById('message');
+      messageDiv.textContent = 'Welcome to my app!';
+    }
+  </script>
+</body>
+</html>
