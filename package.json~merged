@@ -1,0 +1,38 @@
+{
+  "name": "circleci-technical-assignment",
+  "version": "1.0.0",
+<<<<<<< HEAD
+  "description": "A technical assignment project for CircleCI.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "circleci",
+    "testing",
+    "ci"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
+=======
+  "description": "",
+  "main": "app.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
+
+>>>>>>> 0757e71 (Add CircleCI config to run Jest tests)

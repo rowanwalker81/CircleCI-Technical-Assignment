@@ -11,7 +11,7 @@
     "testing",
     "ci"
   ],
-  "author": "Your Name",
+  "author": "Rowan Walker",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
